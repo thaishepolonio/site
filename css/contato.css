@@ -1,0 +1,160 @@
+* {
+    margin: 0px;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    text-align:center;
+    background-color: #FFFCF5;;
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    margin: 0px 0px 0px 0px;
+    height: 100%;
+    width: 100%;
+  }
+  
+  h1 {
+    font-family: new-spirit, serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #F26444;
+    font-size: 65px;
+    text-align: left; 
+    padding-left: 200px; 
+  }
+  
+  h2 {
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #025959;
+    font-size: 19px;
+    text-align: left;
+    padding-left: 200px; 
+  }
+  
+  .link {
+    color: #568C8C;
+  }
+  
+  .active {
+    color: #F26444;
+  }
+  
+  h1 span {
+    color: #F26444;
+  }
+  
+  header {
+    margin-top: 60px;
+  }
+  
+  
+  ul{
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: right;
+    list-style-type:none; 
+    line-height: 2;
+    padding-left:0;
+    margin-right: 60px;
+  }
+  
+  ul li {
+    display: inline-block;
+    line-height: 2.5;
+    margin: 0 30px;
+  }
+  
+  .menu-item {
+    color: #568C8C;
+    text-decoration: none;
+    font-weight: normal;
+  }
+  
+  .menu-item:hover {
+    color: #F26444;
+    border-bottom: 1px;
+    border-color: #F26444;
+  }
+  
+  .active {
+    color: #F26444;
+  }
+  
+  .botao1 {
+    list-style-type:none; 
+    line-height: 2;
+    background: #568C8C;
+    border: 1px solid transparent;
+    padding: 6px 12px 6px 12px;
+    width: 150px; 
+  }
+  
+  .botao {
+    list-style-type:none; 
+    line-height: 2;
+    background: #568C8C;
+    border: 1px solid transparent;
+    padding: 6px 12px 6px 12px;
+    width: 150px; 
+  }
+  
+  .botao1 a{
+    color: #F2F2F2;
+    text-align: center;
+    font-size: 12px;
+    font-family: ff-nexus-typewriter,sans-serif;
+    font-weight: 400;
+    padding: 6px 12px 6px 12px;
+    font-style: normal; 
+    text-decoration: underline;
+  }
+  
+  .botao a{
+    color: #F2F2F2;
+    text-align: center;
+    font-size: 12px;
+    font-family: ff-nexus-typewriter,sans-serif;
+    font-weight: 400;
+    padding: 6px 12px 6px 12px;
+    font-style: normal; 
+    text-decoration: none;
+  }
+  
+  .links {
+    margin: 5px 675px 5px 5px;
+  }
+  
+  .botao:hover {background-color: #F26444;}
+  
+  .botao1:hover {background-color:  #F26444;} 
+  
+  footer{
+    position: absolute;
+    padding-left: 200px;
+    height: 50px;
+  }
+  
+  #content {
+    min-height: calc(100vh - 50px - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  #footer {
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
+    color: #025959;
+    font-size: 16px;
+    text-align: left;
+  }
+  
+  
+  

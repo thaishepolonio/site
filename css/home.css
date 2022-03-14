@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    text-align:left;
+    background-color: #FFFCF5;
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  
+  h1 {
+    font-family: new-spirit, serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #025959;
+    font-size: 75px;
+    text-align: left;
+    padding-left: 200px; 
+  }
+  
+  h1 span {
+    color: #F26444;
+    font-size: 60px;
+  }
+  
+  ul{
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: right;
+    list-style-type:none; 
+    line-height: 2;
+    padding-left:0;
+    margin-top: 60px;
+    margin-right: 60px;
+  }
+  
+  .menu-item {
+    color: #568C8C;
+    text-decoration: none;
+    font-weight: normal;
+  }
+  
+  .menu-item:hover {
+    color: #F26444;
+    border-bottom: 1px;
+    border-color: #F26444;
+  }
+  
+  .active {
+    color: #F26444;
+  }
+  
+  ul li {
+    display: inline-block;
+    line-height: 2.5;
+    margin: 0 30px;
+  }
+  
+  footer{
+    padding-left: 200px;
+    position: absolute;
+    height: 50px;
+  }
+  
+  #content {
+    min-height: calc(100vh - 50px - 100px);
+    display: flex;
+    align-items: center; 
+  }
+  
+  #footer {
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
+    color: #025959;
+    font-size: 16px;
+    text-align: left;
+  }
+  
+  font-family: futura-pt, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+
